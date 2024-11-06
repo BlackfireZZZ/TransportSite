@@ -1,66 +1,36 @@
 import './please.css'
 import './App.css';
 import './index.css'
-import Header from "./components/Header";
-import Slogan from "./components/Slogan";
-import WhoWeAre from "./components/WhoWeAre";
-import WhyChooseUs from "./components/WhyChooseUs";
-import Footer from "./components/Footer";
-import ReviewCarousel from "./components/ReviewCarousel";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import MainPage from "./components/MainPage";
+import FeedbackForm from "./components/FeedbackForm";
 
 function App() {
   return (
-      <>
-        <a
-            className="skip-link screen-reader-text"
-            href="#content"
-            role="link"
-            title="Skip to content"
-        >
-          Skip to content
-        </a>
-        <div className="hfeed site" id="page">
-          <Header />
-          <div id="content" className="site-content">
-            <div className="ast-container">
-              <div id="primary" className="content-area primary">
-                <main id="main" className="site-main">
-                  <article
-                      className="post-6 page type-page status-publish ast-article-single"
-                      id="post-6"
-                      itemType="https://schema.org/CreativeWork"
-                      itemScope="itemscope"
-                  >
-                    <header className="entry-header ast-no-title ast-header-without-markup"></header>{" "}
-                    {/* .entry-header */}
-                    <div className="entry-content clear" itemProp="text">
-                      <div
-                          data-elementor-type="wp-post"
-                          data-elementor-id={6}
-                          className="elementor elementor-6"
-                          data-elementor-post-type="page"
-                      >
-                        <Slogan />
-                        <WhoWeAre />
-                        <WhyChooseUs />
-                        <ReviewCarousel />
-                      </div>
-                    </div>
-                    {/* .entry-content .clear */}
-                  </article>
-                  {/* #post-## */}
-                </main>
-                {/* #main */}
-              </div>
-              {/* #primary */}
-            </div>{" "}
-            {/* ast-container */}
-          </div>
-          {/* #content */}
-          <Footer />
-        </div>
-        </>
+      <div>
+        <Router>
+          {/* <nav> */}
+          {/* <Link to="/">Главная </Link>   */}
+          {/* <Link to="/beginning">Начало </Link>   */}
+          {/* <Link to="/newyear">Новый год </Link> */}
+          {/* <Link to='/14th'>14 февраля </Link> */}
+          {/* <Link to='/ourwalks'>Наши прогулки </Link> */}
+          {/* <Link to='/diff'>Ты разная </Link> */}
+          {/* <Link to='/diff1'>(1) </Link> */}
+          {/* <Link to='/diff2'>(2) </Link> */}
+          {/* <Link to='/diff3'>(3) </Link> */}
+          {/* <Link to='/diff4'>(4) </Link> */}
+          {/* <Link to='/sea'>Море </Link> */}
+          {/* <Link to='/ship'>Корабль </Link> */}
+          {/* </nav> */}
+          <Routes>
+                <Route path="/" element={<MainPage/>}/>
+                <Route path="/feedback" element={<FeedbackForm/>}/>
+          </Routes>
+        </Router>
+      </div>
   );
 }
+
 
 export default App;
