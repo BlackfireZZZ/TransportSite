@@ -1,0 +1,53 @@
+/* global.css */
+
+/* Основные цвета */
+:root {
+    --color-primary: #173A63;
+    --color-secondary: #B2B2B2;
+    --color-text: #444444;
+    --color-accent: #FCBE07;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+/* Основные шрифты */
+body {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    color: var(--color-text);
+    background-color: var(--color-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 600;
+}
+
+p, span, li, a, button, input, label, .text, .content {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+button, .accent {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: var(--color-accent);
+}
+
+.elementor-icon-list-item {
+    list-style: none; /* Убираем стандартные маркеры */
+    display: flex;
+}
+
+.elementor-icon-list-item::before {
+    content: "•"; /* Символ жирной точки */
+    font-size: 2em; /* Размер точки */
+    color: #fcbe07; /* Цвет точки */
+    margin-right: 0.5em; /* Расстояние между точкой и текстом */
+    font-weight: bold; /* Жирность */
+}
+
+.elementor-icon-list-icon {
+    display: none; /* Скрываем иконку, если не нужна */
+}
+

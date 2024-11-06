@@ -1,0 +1,7 @@
+/* styles.css */
+#page.hfeed.site {
+    width: 100vw !important;       /* Занимает всю ширину экрана */
+    margin: 0;            /* Обнуляет внешние отступы */
+    padding: 0;           /* Обнуляет внутренние отступы */
+    box-sizing: border-box; /* Учитывает padding и border в ширине и высоте */
+}
