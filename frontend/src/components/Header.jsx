@@ -60,37 +60,24 @@ const Header = () => {
                                     <ul className="elementor-icon-list-items elementor-inline-items">
                                         <li className="elementor-icon-list-item elementor-inline-item">
                                             <a href="tel:+31851122300">
-                        <span className="elementor-icon-list-icon">
-                          <i
-                              className="fa fa-phone-square"
-                              aria-hidden="true"
-                          />
-                        </span>
-                                                <span className="elementor-icon-list-text">
-                          +31 (0)85 112 2300
-                        </span>
+                                                <span>
+                                                  +31 (0)85 112 2300
+                                                </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item elementor-inline-item">
                                             <a href="mailto:contact@ets-trucking.com">
-                        <span className="elementor-icon-list-icon">
-                          <i
-                              className="fa fa-envelope-open"
-                              aria-hidden="true"
-                          />
-                        </span>
+
                                                 <span className="elementor-icon-list-text">
-                          contact@ets-trucking.com
-                        </span>
+                                                  contact@ets-trucking.com
+                                                </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item elementor-inline-item">
-                      <span className="elementor-icon-list-icon">
-                        <i className="fa fa-clock-o" aria-hidden="true"/>
-                      </span>
+
                                             <span className="elementor-icon-list-text">
-                        24 / 7 Available
-                      </span>
+                                                24 / 7 Available
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>
@@ -129,14 +116,6 @@ const Header = () => {
                                                     className="elementor-item menu-link"
                                                 >
                                                     Services
-                                                </a>
-                                            </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-289">
-                                                <a
-                                                    href="https://www.ets-trucking.com/partners/"
-                                                    className="elementor-item menu-link"
-                                                >
-                                                    Partners
                                                 </a>
                                             </li>
                                         </ul>
