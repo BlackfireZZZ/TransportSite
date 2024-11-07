@@ -54,38 +54,23 @@ const Footer = () => {
                                     <ul className="elementor-icon-list-items">
                                         <li className="elementor-icon-list-item">
                                             <a href="tel:+31851122300">
-                        <span className="elementor-icon-list-icon">
-                          <i
-                              className="fa fa-phone-square"
-                              aria-hidden="true"
-                          />
-                        </span>
                                                 <span className="elementor-icon-list-text">
-                          + 31 (0) 85 112 2300
-                        </span>
+                                                  + 31 (0) 85 112 2300
+                                                </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
                                             <a href="tel:+31851122315">
-                        <span className="elementor-icon-list-icon">
-                          <i className="fa fa-fax" aria-hidden="true"/>
-                        </span>
                                                 <span className="elementor-icon-list-text">
-                          + 31 (0) 85 112 2315
-                        </span>
+                                                  + 31 (0) 85 112 2315
+                                                </span>
                                             </a>
                                         </li>
                                         <li className="elementor-icon-list-item">
-                                            <a href="mailto:contact@ets-trucking.com">
-                        <span className="elementor-icon-list-icon">
-                          <i
-                              className="fa fa-envelope-open"
-                              aria-hidden="true"
-                          />
-                        </span>
+                                                <a href="mailto:contact@ets-trucking.com">
                                                 <span className="elementor-icon-list-text">
-                          contact@ets-trucking.com
-                        </span>
+                                                  contact@ets-trucking.com
+                                                </span>
                                             </a>
                                         </li>
                                     </ul>
