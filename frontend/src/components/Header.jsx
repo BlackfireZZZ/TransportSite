@@ -6,22 +6,8 @@ import Config from "../config";
 const Header = () => {
     const  baseUrl = Config.baseUrl;
 
-    const [setCurrentPage] = useState(baseUrl); // Начальное значение для Home
-
-    useEffect(() => {
-        const handleLocationChange = () => {
-            setCurrentPage(window.location.pathname);
-        };
-
-        window.addEventListener("popstate", handleLocationChange);
-
-        return () => {
-            window.removeEventListener("popstate", handleLocationChange);
-        };
-    }, []);
 
     const handleClick = (path) => {
-        setCurrentPage(path);
         window.history.pushState({}, "", path); // Меняем URL без перезагрузки страницы
     };
 
