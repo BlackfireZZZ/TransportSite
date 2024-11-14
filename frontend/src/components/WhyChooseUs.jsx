@@ -54,44 +54,38 @@ const WhyChooseUs = () => {
                                 <ul className="elementor-icon-list-items">
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                    Three generations of experience
+                                            <b>Unmatched expertise</b> in automotive industry & logistics
+                                        </span>
+                                    </li>
+                                    <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            <b>Fast and reliable</b> shipping
+                                        </span>
+                                    </li>
+                                    <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            <b>Custom solutions</b> tailored to your needs
+                                        </span>
+                                    </li>
+                                    <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            <b>Transparent pricing</b> with no hidden fees.
+                                        </span>
+                                    </li>
+                                    <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            <b>Experienced and knowledgeable</b> team
                                   </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                    Many years of ongoing partnerships
-                                  </span>
+                                            <b>Dedicated</b> customer support (consulting, photos etc.)
+                                          </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                    High and flexible availability due to
-                                    comprehensive, large fleet
-                                  </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                    24/7 available
-                                  </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                    Cost-effective trailer run
-                                  </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                    Strategically-chosen parking yards available{" "}
-                                  </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                    High-efficient transportation service
-                                  </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                    No need to own your own trucks{" "}
-                                  </span>
+                                            <b>24/7</b> available 24/7
+                                        </span>
                                     </li>
                                 </ul>
                             </div>

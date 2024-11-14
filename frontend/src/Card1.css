@@ -1,0 +1,91 @@
+/* Основной контейнер для всей карточки */
+.card1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card1-content {
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Контейнер заголовка */
+.card1-header-container {
+    padding: 10px 15px;
+    border: 2px solid #173a63;
+    margin-bottom: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Заголовок карточки */
+.card1-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #173a63;
+}
+
+.card1-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Левая колонка */
+.card1-body-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Правая колонка */
+.card1-body-right {
+    flex: 0.5;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    margin: 20px;
+}
+
+/* Список */
+.card1-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.card1-list li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+/* Иконка шестеренки */
+.gear-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+/* Первое изображение */
+.card1-first-image {
+    width: 100%;
+    height: auto; /* Убираем фиксированную высоту */
+    object-fit: contain; /* Избегаем обрезки */
+}
+
+/* Второе изображение */
+.card1-second-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
