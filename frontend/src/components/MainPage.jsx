@@ -23,7 +23,6 @@ function MainPage() {
                 <Header />
                 <div id="content" className="site-content">
                     <div className="ast-container">
-                        <div id="primary" className="content-area primary">
                             <main id="main" className="site-main">
                                 <article
                                     className="post-6 page type-page status-publish ast-article-single"
@@ -51,8 +50,6 @@ function MainPage() {
                                 {/* #post-## */}
                             </main>
                             {/* #main */}
-                        </div>
-                        {/* #primary */}
                     </div>{" "}
                     {/* ast-container */}
                 </div>
