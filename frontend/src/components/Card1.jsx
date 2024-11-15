@@ -1,6 +1,8 @@
+// Card1.js
 import React from 'react';
 import '../Card1.css';
 import gearIcon from '../icons/gear.png'; // Иконка шестеренки
+import PhotoSlider from "./PhotoSlider";
 
 const Card1 = () => {
     return (
@@ -24,7 +26,10 @@ const Card1 = () => {
                         </ul>
                     </div>
                     <div className="card1-body-right">
-                        <img src={require('../assets/logistics1.jpg')} alt="First" className="card1-first-image"/>
+                        <PhotoSlider
+                            photos={['logistics1.jpg', 'logistics2.jpg', 'logistics3.jpg']}
+                            height = '100%'
+                        />
                     </div>
                 </div>
             </div>

@@ -7,12 +7,11 @@ const Services = () => {
     return (
         <div>
             <Header />
-            <div className="services">
-                <Card1 />
-            </div>
-            <Footer />
-        </div>
-    );
+            <Card1/>
+            <Footer/>
+</div>
+)
+    ;
 }
 
 export default Services

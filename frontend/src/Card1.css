@@ -1,23 +1,26 @@
+/* Card1.css */
+
 /* Основной контейнер для всей карточки */
 .card1 {
     width: 100%;
+    height: 400px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
 }
 
 .card1-content {
-    width: 100%;
-    max-width: 1200px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
 }
 
 /* Контейнер заголовка */
 .card1-header-container {
-    padding: 10px 15px;
+    padding: 10px;
     border: 2px solid #173a63;
-    margin-bottom: 15px;
+    margin: 20px;
     width: 30%;
     text-align: center;
 }
@@ -29,9 +32,14 @@
     color: #173a63;
 }
 
+/* Основной контейнер */
 .card1-body {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 
 /* Левая колонка */
@@ -39,8 +47,9 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 /* Правая колонка */
@@ -49,13 +58,12 @@
     display: flex;
     align-items: flex-start;
     align-self: stretch;
-    margin: 20px;
 }
 
 /* Список */
 .card1-list {
     list-style-type: disc;
-    padding-left: 20px;
+    padding: 20px; /* Немного отступа слева для списка */
     margin: 0;
 }
 
@@ -75,17 +83,9 @@
     margin-left: 8px;
 }
 
-/* Первое изображение */
-.card1-first-image {
+/* PhotoSlider */
+.card1-body-right > * {
     width: 100%;
-    height: auto; /* Убираем фиксированную высоту */
-    object-fit: contain; /* Избегаем обрезки */
-}
-
-/* Второе изображение */
-.card1-second-image {
-    width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    border-radius: 4px;
 }
