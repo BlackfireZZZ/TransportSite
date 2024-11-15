@@ -1,33 +1,40 @@
 // Card1.js
 import React from 'react';
 import '../Card1.css';
-import gearIcon from '../icons/gear.png'; // Иконка шестеренки
 import PhotoSlider from "./PhotoSlider";
+import DownloadLink from "./DownloadLink";
 
-const Card1 = () => {
+const Card3 = () => {
     return (
         <div className="card1">
-            <div className="card1-content">
+            <div className="card3-content">
                 <div className="card1-body">
                     <div className="card1-body-left">
                         <div className="card1-header-container">
-                            <div className="card1-header">Vehicle import</div>
+                            <div className="card1-header">Sale of special equipment </div>
                         </div>
+                        <DownloadLink pdf_path="MACHINERY.pdf" text='List of production'/>
                         <ul className="card1-list">
                             <li className="elementor-icon-list-item">
-                                Selection of customized cars <img src={gearIcon} alt="Gear Icon" className="gear-icon"/>
+                                Wide range of new and used special equipment
                             </li>
                             <li className="elementor-icon-list-item">
-                                Issuing all necessary documents for import
+                                Selection of equipment appropriate to the specific tasks
                             </li>
                             <li className="elementor-icon-list-item">
-                                Transportation of the car to the client
+                                Service maintenance
                             </li>
                         </ul>
                     </div>
                     <div className="card1-body-right">
                         <PhotoSlider
-                            photos={['vehicle_import1.jpg', 'vehicle_import2.jpg', 'vehicle_import3.jpg']}
+                            photos={[
+                                'special_equipment1.jpg',
+                                'special_equipment2.jpg',
+                                'special_equipment3.jpg',
+                                'special_equipment4.jpg',
+                                'special_equipment5.jpg',
+                            ]}
                             height = '100%'
                         />
                     </div>
@@ -37,4 +44,4 @@ const Card1 = () => {
     );
 };
 
-export default Card1;
+export default Card3;

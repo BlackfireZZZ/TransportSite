@@ -1,0 +1,17 @@
+
+/* Контейнер заголовка */
+.card4-header-container {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: 20px 50px;
+    width: 50%;
+    text-align: center;
+}
+
+/* Заголовок карточки */
+.card4-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 10; /* Заголовок будет поверх остальных элементов */
+}

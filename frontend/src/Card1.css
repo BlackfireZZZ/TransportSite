@@ -7,10 +7,11 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .card1-content {
-    width: 50%;
+    width: 60%;
     padding: 0;
     margin: 0;
     justify-content: center;
@@ -21,7 +22,7 @@
     padding: 10px;
     border: 2px solid #173a63;
     margin: 20px;
-    width: 30%;
+    width: 50%;
     text-align: center;
 }
 

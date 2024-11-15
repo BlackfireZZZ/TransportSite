@@ -1,0 +1,62 @@
+/* Убедимся, что контейнер для слайдера занимает правильное пространство */
+.card2-body-right {
+    flex: 1; /* Делаем правую колонку (слайдер) шире */
+    display: flex;
+    justify-content: center; /* Центруем контент */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* Левая колонка с текстом */
+.card2-body-left {
+    flex: 0.7; /* Делаем левую колонку уже */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.card2-list li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Основной контейнер для всей карточки */
+.card2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Контейнер заголовка */
+.card2-header-container {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: 20px 50px;
+    width: 50%;
+    text-align: center;
+}
+
+/* Заголовок карточки */
+.card2-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 10; /* Заголовок будет поверх остальных элементов */
+}
+
+.card2-content {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
