@@ -3,6 +3,7 @@ LABEL authors="BlackfireZZZ"
 
 COPY frontend /app
 WORKDIR /app
+RUN npm install
 RUN npm run build
 
 FROM nginx:latest as prod
