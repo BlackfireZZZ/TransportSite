@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  transport_frontend:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf  # Монтирование конфигурационного файла Nginx
+
