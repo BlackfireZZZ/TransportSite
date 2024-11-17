@@ -1,0 +1,13 @@
+/* Контейнер для нижнего контента */
+.card6-bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0056b3; /* Синий фон */
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%; /* Контейнер занимает всю ширину */
+}

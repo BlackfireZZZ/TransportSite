@@ -5,7 +5,7 @@ import '../Card2.css';
 import '../Card4.css'
 import PhotoSlider from "./PhotoSlider";
 
-const Card4 = () => {
+const Card7 = () => {
     return (
         <div className="fullWidthContainer">
             <div className="fullWidthContainer__innerContent">
@@ -18,18 +18,15 @@ const Card4 = () => {
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}
-                                <div className="card4-header-container">
-                                    <div className="card4-header">Logistics</div>
+                                <div className="card4-header-container" style={{width: '70%'}}>
+                                    <div className="card4-header" >Purchase of special equipment</div>
                                 </div>
                                 <ul className="card2-list">
                                     <li className="elementor-icon-list-item">
-                                        International transportation
+                                        Appraisal and purchase of special equipment
                                     </li>
                                     <li className="elementor-icon-list-item">
-                                        Customs clearance
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        Cargo storage
+                                        Dismantling and transportation of equipment
                                     </li>
                                 </ul>
                             </div>
@@ -41,4 +38,4 @@ const Card4 = () => {
     );
 };
 
-export default Card4;
+export default Card7;

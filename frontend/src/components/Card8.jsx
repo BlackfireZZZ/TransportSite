@@ -4,25 +4,24 @@ import '../Card1.css';
 import PhotoSlider from "./PhotoSlider";
 import DownloadLink from "./DownloadLink";
 
-const Card3 = () => {
+const Card8 = () => {
     return (
         <div className="card1">
             <div className="card3-content">
                 <div className="card1-body">
                     <div className="card1-body-left">
                         <div className="card1-header-container">
-                            <div className="card1-header">Sale of special equipment </div>
+                            <div className="card1-header">Long-term vehicle rental </div>
                         </div>
-                        <DownloadLink pdf_path="MACHINERY.pdf" text='List of production'/>
-                        <ul className="card1-list" style={{width: '400px'}}>
+                        <ul className="card1-list" style={{width: '350px'}}>
                             <li className="elementor-icon-list-item">
-                                Wide range of new and used special equipment
+                                Keep your operations running smoothly
                             </li>
                             <li className="elementor-icon-list-item">
-                                Selection of equipment appropriate to the specific tasks
+                                Try before you buy – no commitment
                             </li>
                             <li className="elementor-icon-list-item">
-                                Service maintenance
+                                Flexible rentals tailored to your needs
                             </li>
                         </ul>
                     </div>
@@ -37,4 +36,4 @@ const Card3 = () => {
     );
 };
 
-export default Card3;
+export default Card8;

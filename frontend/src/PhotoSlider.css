@@ -1,8 +1,6 @@
 /* Basic styling */
 .slider {
     position: relative;
-    width: 300px; /* Adjust to your image width */
-    height: 200px; /* Adjust to your image height */
     overflow: hidden;
 }
 

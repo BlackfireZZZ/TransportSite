@@ -9,17 +9,27 @@ const Card5 = () => {
                 <div className="card1-body">
                     <div className="card1-body-left">
                         <div className="card1-header-container">
-                            <div className="card1-header">Consulting </div>
+                            <div className="card1-header">Consulting</div>
                         </div>
+
                         <a
                             href={'/feedback'}
                             style={{
-                            margin: '0px 20px',
-                            textDecoration: 'underline',
-                            color: 'blue',
-                            cursor: 'pointer',
-                        }}>
-                            Give us your feedback
+                                display: 'inline-block',
+                                backgroundColor: '#fcb900',
+                                color: '#000000',
+                                padding: '5px 15px',
+                                borderRadius: '25px', // Сильно скругленные углы
+                                textDecoration: 'none',
+                                fontSize: '14px',
+                                fontWeight: 'bold',
+                                textAlign: 'center',
+                                cursor: 'pointer',
+                                margin: '0px 20px',
+                                width: '200px'
+                            }}
+                        >
+                            {'Give us your feedback'}
                         </a>
 
                         <ul className="card1-list">
@@ -29,16 +39,9 @@ const Card5 = () => {
                         </ul>
                     </div>
                     <div className="card1-body-right">
-                        <PhotoSlider
-                            photos={[
-                                'special_equipment1.jpg',
-                                'special_equipment2.jpg',
-                                'special_equipment3.jpg',
-                                'special_equipment4.jpg',
-                                'special_equipment5.jpg',
-                            ]}
-                            height = '100%'
-                        />
+                        <div className="slider" style={{width: '400px', height: '350px'}}>
+                            <img src={require('../assets/logistics2.jpg')}/>
+                        </div>
                     </div>
                 </div>
             </div>

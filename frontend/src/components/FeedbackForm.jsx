@@ -7,6 +7,7 @@ const FeedbackForm = () => {
         name: '',
         email: '',
         company: '',
+        reason: '',
         feedback: ''
     });
 
@@ -20,7 +21,6 @@ const FeedbackForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you can handle the submission (e.g., send data to a server)
         console.log('Feedback Submitted:', formData);
     };
 
@@ -61,8 +61,26 @@ const FeedbackForm = () => {
                         onChange={handleChange}
                     />
                 </div>
+                <div className="form-group" >
+                    <label htmlFor="reason">Reason for Contact</label>
+                    <select
+                        id="reason"
+                        name="reason"
+                        style={{width: '100%', borderRadius: '5px'}}
+                        value={formData.reason}
+                        onChange={handleChange}
+                        required
+                    >
+                        <option value="" disabled >Please select the reason for your inquiry</option>
+                        <option value="general">General inquiry</option>
+                        <option value="order">Order inquiry</option>
+                        <option value="technical">Technical support</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="suggestion">Suggestion</option>
+                    </select>
+                </div>
                 <div className="form-group">
-                    <label htmlFor="feedback">Feedback</label>
+                    <label htmlFor="feedback">Message</label>
                     <textarea
                         id="feedback"
                         name="feedback"
