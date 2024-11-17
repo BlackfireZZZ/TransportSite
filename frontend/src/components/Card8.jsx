@@ -26,8 +26,8 @@ const Card8 = () => {
                         </ul>
                     </div>
                     <div className="card1-body-right">
-                        <div className="slider" style={{ width: '400px', height: '350px'}}>
-                            <img src={require('../assets/logistics2.jpg')} />
+                        <div className="slider" style={{width: '400px', height: 'auto'}}>
+                            <img src={require('../assets/6.jpg')}/>
                         </div>
                     </div>
                 </div>

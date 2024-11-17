@@ -17,7 +17,7 @@ const Footer = () => {
                 data-settings='{"background_background":"classic","background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_devices":["desktop","tablet","mobile"]}'
             >
                 <div className="elementor-background-overlay"/>
-                <div className="elementor-container elementor-column-gap-default">
+                <div className="elementor-container elementor-column-gap-default" style={{}}>
                     <div
                         className="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-26e2d78"
                         data-id="26e2d78"
@@ -115,60 +115,6 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div
-                        className="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9cd6474"
-                        data-id="9cd6474"
-                        data-element_type="column"
-                    >
-                        <div className="elementor-widget-wrap elementor-element-populated">
-                            <div
-                                className="elementor-element elementor-element-4dd52db elementor-widget elementor-widget-heading"
-                                data-id="4dd52db"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
-                            >
-                                <div className="elementor-widget-container">
-                                    <h2 className="elementor-heading-title elementor-size-default">
-                                        Legal
-                                    </h2>{" "}
-                                </div>
-                            </div>
-                            <div
-                                className="elementor-element elementor-element-0fd157b elementor-widget elementor-widget-text-editor"
-                                data-id="0fd157b"
-                                data-element_type="widget"
-                                data-widget_type="text-editor.default"
-                            >
-                                <div className="elementor-widget-container">
-                                    <p>
-                                        <a
-                                            href="https://www.ets-trucking.com/privacy-policy/"
-                                            target="_blank"
-                                            rel="noopener"
-                                        >
-                                            Privacy Policy
-                                        </a>
-                                        <br/>
-                                        <a
-                                            href="https://www.ets-trucking.com/cookie-declaration/"
-                                            target="_blank"
-                                            rel="noopener"
-                                        >
-                                            Cookie Declaration
-                                        </a>
-                                        <br/>
-                                        <a
-                                            href="https://www.ets-trucking.com/disclaimer/"
-                                            target="_blank"
-                                            rel="noopener"
-                                        >
-                                            Disclaimer
-                                        </a>
-                                    </p>{" "}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
             <section
@@ -178,26 +124,6 @@ const Footer = () => {
                 data-settings='{"background_background":"classic"}'
             >
                 <div className="elementor-container elementor-column-gap-default">
-                    <div
-                        className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7282a9f3"
-                        data-id="7282a9f3"
-                        data-element_type="column"
-                    >
-                        <div className="elementor-widget-wrap elementor-element-populated">
-                            <div
-                                className="elementor-element elementor-element-c0313bb elementor-widget elementor-widget-heading"
-                                data-id="c0313bb"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
-                            >
-                                <div className="elementor-widget-container">
-                                    <h3 className="elementor-heading-title elementor-size-default">
-                                        © 2024 European Trucking Service B.V.
-                                    </h3>{" "}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div
                         className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a1c3155"
                         data-id="7a1c3155"

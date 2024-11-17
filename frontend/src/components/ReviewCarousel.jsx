@@ -14,17 +14,17 @@ const reviews = [
     },
     {
         text: `"At the beginning we were consulted on the requested type of equipment, several alternatives were presented to us. After importing the equipment, we were provided with after-sales assistance (translation of documents, service). Appreciate your cooperation"`,
-        author: "турок4",
+        author: "Ahmet Yılmaz",
         image: "/path/to/image2.jpg",
     },
     {
         text: `"Alle Vertragsbedingungen wurden von der Firma pünktlich erfüllt, wir haben keine Klagen."`,
-        author: "турок5",
+        author: "Leyla Demir",
         image: "/path/to/image2.jpg",
     },
     {
         text: `"Yakın zamanda Avrupa'dan bir teslimatı geldi ve her şey umduğumuz üzereydi. Bu şirketi bizzati sizlere tavsiye ederim. Saygılarımla..."`,
-        author: "турок6",
+        author: "Mehmet Kaya",
         image: "/path/to/image2.jpg",
     },
 ];

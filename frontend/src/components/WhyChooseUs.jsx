@@ -98,7 +98,9 @@ const WhyChooseUs = () => {
                     data-element_type="column"
                     data-settings='{"background_background":"classic"}'
                 >
-                    <div className="elementor-widget-wrap elementor-element-populated">
+                    <div className="elementor-widget-wrap elementor-element-populated"
+                        // style={{backgroundImage: `url(${require(`../assets/7.jpg`)})`}}
+                    >
                         <div
                             className="elementor-element elementor-element-03bd29b elementor-widget elementor-widget-spacer"
                             data-id="03bd29b"

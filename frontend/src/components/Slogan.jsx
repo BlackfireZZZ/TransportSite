@@ -9,6 +9,7 @@ const Slogan = () => {
             data-id="19123a4"
             data-element_type="section"
             data-settings='{"background_background":"classic","background_motion_fx_motion_fx_scrolling":"yes","background_motion_fx_translateY_effect":"yes","background_motion_fx_translateY_direction":"negative","background_motion_fx_translateY_speed":{"unit":"px","size":5,"sizes":[]},"background_motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"background_motion_fx_devices":["desktop","tablet","mobile"]}'
+            style={{backgroundImage: `url(${require(`../assets/8.jpg`)})`}}
         >
             <div className="elementor-background-overlay"/>
             <div className="elementor-container elementor-column-gap-default">

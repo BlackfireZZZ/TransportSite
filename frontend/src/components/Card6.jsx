@@ -5,8 +5,8 @@ import '../Card2.css';
 import '../Card4.css';
 import PhotoSlider from './PhotoSlider';
 import CompareImages from './CompareImages';
-import BeforePhoto from '../assets/logistics1.jpg';
-import AfterPhoto from '../assets/logistics2.jpg';
+import BeforePhoto from '../assets/stalo.jpg';
+import AfterPhoto from '../assets/bilo.jpg';
 
 const Card6 = () => {
     return (
@@ -16,11 +16,14 @@ const Card6 = () => {
                     <div className="card2-content">
                         {/* Основной контент */}
                         <div className="card1-body">
-                            <div className="slider" style={{width: '400px', height: '350px'}}>
-                                <img src={require('../assets/logistics2.jpg')}/>
-                            </div>
-                            <div className="card2-body-left">
-                                <div className="card4-header-container" style={{width: '55%'}}>
+                            <CompareImages
+                                    beforeImage={BeforePhoto}
+                                    afterImage={AfterPhoto}
+                                    width="60%"
+                                    height="300px"
+                            />
+                            <div className="card2-body-left" style={{flex: '1'}}>
+                                <div className="card4-header-container" style={{ width: '55%'}}>
                                     <div className="card4-header">Service</div>
                                 </div>
                                 <ul className="card2-list">
@@ -36,18 +39,6 @@ const Card6 = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* Новый контент снизу */}
-                        {/*<div className="card6-bottom-content">*/}
-                        {/*    <p className="card6-description">*/}
-                        {/*        The photo comparison below showcases the improvements in logistics infrastructure after implementing modern solutions.*/}
-                        {/*    </p>*/}
-                        {/*    <CompareImages*/}
-                        {/*        beforeImage={BeforePhoto}*/}
-                        {/*        afterImage={AfterPhoto}*/}
-                        {/*        width="60%"*/}
-                        {/*        height="300px"*/}
-                        {/*    />*/}
-                        {/*</div>*/}
                     </div>
                 </div>
             </div>

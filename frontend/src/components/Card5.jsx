@@ -12,10 +12,18 @@ const Card5 = () => {
                             <div className="card1-header">Consulting</div>
                         </div>
 
+                        <ul className="card1-list" style={{width: '350px'}}>
+                            <li className="elementor-icon-list-item">
+                                Consultations based on your needs
+                            </li>
+                        </ul>
+
                         <a
                             href={'/feedback'}
                             style={{
-                                display: 'inline-block',
+                                display: 'inline-flex', // Используем flexbox
+                                justifyContent: 'center', // Центрирование по горизонтали
+                                alignItems: 'center', // Центрирование по вертикали
                                 backgroundColor: '#fcb900',
                                 color: '#000000',
                                 padding: '5px 15px',
@@ -26,21 +34,17 @@ const Card5 = () => {
                                 textAlign: 'center',
                                 cursor: 'pointer',
                                 margin: '0px 20px',
+                                height: '60px',
                                 width: '200px'
                             }}
                         >
                             {'Give us your feedback'}
                         </a>
 
-                        <ul className="card1-list">
-                            <li className="elementor-icon-list-item">
-                                Consultations based on your needs
-                            </li>
-                        </ul>
                     </div>
                     <div className="card1-body-right">
                         <div className="slider" style={{width: '400px', height: '350px'}}>
-                            <img src={require('../assets/logistics2.jpg')}/>
+                            <img src={require('../assets/5.jpg')} style={{width: 'auto', height: '350px'}}/>
                         </div>
                     </div>
                 </div>

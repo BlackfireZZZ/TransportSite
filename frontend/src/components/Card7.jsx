@@ -13,8 +13,8 @@ const Card7 = () => {
                     <div className="card2-content">
                         <div className="card1-body">
                             <div className="card2-body-right"> {/* Перенесено справа */}
-                                <div className="slider" style={{width: '400px', height: '350px'}}>
-                                    <img src={require('../assets/logistics2.jpg')}/>
+                                <div className="slider" style={{width: '400px', height: 'auto'}}>
+                                    <img src={require('../assets/2.jpg')}/>
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}
