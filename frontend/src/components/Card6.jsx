@@ -20,7 +20,7 @@ const Card6 = () => {
                                 <img src={require('../assets/logistics2.jpg')}/>
                             </div>
                             <div className="card2-body-left">
-                                <div className="card4-header-container">
+                                <div className="card4-header-container" style={{width: '55%'}}>
                                     <div className="card4-header">Service</div>
                                 </div>
                                 <ul className="card2-list">

@@ -8,7 +8,7 @@ const Card5 = () => {
             <div className="card3-content" style={{width: '55%'}}>
                 <div className="card1-body">
                     <div className="card1-body-left">
-                        <div className="card1-header-container">
+                        <div className="card1-header-container" style={{width: '70%'}}>
                             <div className="card1-header">Consulting</div>
                         </div>
 

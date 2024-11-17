@@ -18,7 +18,7 @@ const Card4 = () => {
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}
-                                <div className="card4-header-container">
+                                <div className="card4-header-container" style={{width: '60%'}}>
                                     <div className="card4-header">Logistics</div>
                                 </div>
                                 <ul className="card2-list">
