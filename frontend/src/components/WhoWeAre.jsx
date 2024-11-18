@@ -3,6 +3,7 @@ import '../index.css'
 
 
 const WhoWeAre = () => {
+    const CompanyName = "Transport Site";
 
     return (
         <section
@@ -38,39 +39,23 @@ const WhoWeAre = () => {
                         >
                             <div className="elementor-widget-container">
                                 <p>
-                                    As a pioneer in the global automotive logistics industry,<b>
-                                    NK LOJİSTİK OTOMOTİV LİMİTED SİRKETİ</b> is
-                                    dedicated to providing seamless and efficient transportation solutions.
+                                    <b>{CompanyName}</b> is more than just a supplier -
+                                    we are your dedicated partner in success. With an established reputation for
+                                    delivering exceptional service, we have earned the trust of clients worldwide.
+                                    Our expertise spans beyond logistics, integrating procurement, sales,
+                                    and comprehensive maintenance solutions.
+                                    This ensures your equipment remains reliable, efficient, and operational throughout
+                                    its entire lifecycle, minimizing downtime and maximizing value.
                                 </p>
                                 <p>
-                                    With our unwavering commitment to quality and customer satisfaction,
-                                    we have earned a reputation for excellence in the industry.
-                                    Our team of seasoned professionals leverages cutting-edge
-                                    technology and industry best practices to ensure that your automotive
-                                    shipments arrive safely and on time, every time
+                                    By fostering lasting relationships with our clients, we prioritize their needs at
+                                    every stage. Whether it's sourcing the right equipment or ensuring seamless
+                                    operation, we are committed to supporting your growth on every step of the way.
                                 </p>
                                 <p>
-                                    Thanks to our flexibility, our services are{" "}
-                                    <span style={{fontSize: 16}}>
-                                  demanded for continuously.
-                                </span>
-                                </p>{" "}
-                            </div>
-                        </div>
-                        <div
-                            className="elementor-element elementor-element-4e0fad7 elementor-widget elementor-widget-text-editor"
-                            data-id="4e0fad7"
-                            data-element_type="widget"
-                            data-widget_type="text-editor.default"
-                        >
-                            <div className="elementor-widget-container">
-                                <p className="MsoNormal">
-                                <span lang="EN-GB">
-                                    At <b>NK LOJİSTİK OTOMOTİV LİMİTED SİRKETİ</b> we stand for innovation and
-                                  flexibility, It is our mission to be able to
-                                  continue to meet our customers’ demands at all
-                                  times.
-                                </span>
+                                    Take a closer look at the full range of possibilities we offer, and let us begin
+                                    collaborating to achieve your goals. Our expertise and commitment to
+                                    excellence will ensure a productive and successful partnership from the very start.
                                 </p>{" "}
                             </div>
                         </div>
