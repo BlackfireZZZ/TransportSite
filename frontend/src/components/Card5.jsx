@@ -19,7 +19,7 @@ const Card5 = () => {
                         </ul>
 
                         <a
-                            href={'/feedback'}
+                            href={'/contact-us'}
                             style={{
                                 display: 'inline-flex', // Используем flexbox
                                 justifyContent: 'center', // Центрирование по горизонтали

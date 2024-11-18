@@ -3,12 +3,8 @@ import './App.css';
 import './index.css'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import MainPage from "./components/MainPage";
-import FeedbackForm from "./components/FeedbackForm";
+import ContactUs from "./components/ContactUs";
 import Services from "./components/Services";
-import PhotoSlider from "./components/PhotoSlider";
-import CompareImages from "./components/CompareImages";
-import BeforePhoto from './assets/logistics1.jpg';
-import AfterPhoto from './assets/logistics2.jpg';
 import EmployeeCard from "./components/EmployeeCard";
 
 function App() {
@@ -17,7 +13,7 @@ function App() {
         <Router>
           <Routes>
                 <Route path="/" element={<MainPage/>}/>
-                <Route path="/contact-us" element={<FeedbackForm/>}/>
+                <Route path="/contact-us" element={<ContactUs/>}/>
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/our-team" element={<EmployeeCard/>}/>
           </Routes>

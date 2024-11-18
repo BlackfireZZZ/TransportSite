@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../FeedbackForm.css';
 import Header from "./Header";
+import Footer from "./Footer";
 
-const FeedbackForm = () => {
+const ContactUs = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -25,7 +26,7 @@ const FeedbackForm = () => {
     };
 
     return (
-        <div>
+        <div style={{width: '100vw'}}>
             <Header />
             <form className="feedback-form" onSubmit={handleSubmit}>
                 <h2>Contact us</h2>
@@ -92,8 +93,9 @@ const FeedbackForm = () => {
                 </div>
                 <button type="submit" className="submit-btn">Submit</button>
             </form>
+            <Footer />
         </div>
     );
 };
 
-export default FeedbackForm;
+export default ContactUs;

@@ -11,7 +11,7 @@ import Card8 from "./Card8";
 
 const Services = () => {
     return (
-        <div>
+        <div style={{width: '100vw'}}>
             <Header />
             <Card3 />
             <Card7 />
