@@ -28,7 +28,7 @@ const FeedbackForm = () => {
         <div>
             <Header />
             <form className="feedback-form" onSubmit={handleSubmit}>
-                <h2>Give us Your Feedback!</h2>
+                <h2>Contact us</h2>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input

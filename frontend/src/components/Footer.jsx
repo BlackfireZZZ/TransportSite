@@ -101,6 +101,7 @@ const Footer = () => {
                                 data-id="0c9f427"
                                 data-element_type="widget"
                                 data-widget_type="text-editor.default"
+                                style={{width: "auto"}}
                             >
                                 <div className="elementor-widget-container">
                                     <p>
