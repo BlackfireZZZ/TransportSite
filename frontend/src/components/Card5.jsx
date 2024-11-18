@@ -38,7 +38,7 @@ const Card5 = () => {
                                 width: '200px'
                             }}
                         >
-                            {'Give us your feedback'}
+                            {'Contact us'}
                         </a>
 
                     </div>

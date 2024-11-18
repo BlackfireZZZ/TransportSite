@@ -120,11 +120,11 @@ const Header = () => {
                                             </li>
                                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-200">
                                                 <a
-                                                    href={`${baseUrl}/feedback`}
-                                                    onClick={() => handleClick({baseUrl} + "/feedback")}
+                                                    href={`${baseUrl}/contact-us`}
+                                                    onClick={() => handleClick({baseUrl} + "/contact-us")}
                                                     className={`elementor-item menu-link `}
                                                 >
-                                                    Feedback
+                                                    Contact us
                                                 </a>
                                             </li>
                                         </ul>

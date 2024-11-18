@@ -1,5 +1,5 @@
 const Config = {
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://localhost:3000',
 }
 
 

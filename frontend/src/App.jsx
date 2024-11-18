@@ -16,7 +16,7 @@ function App() {
         <Router>
           <Routes>
                 <Route path="/" element={<MainPage/>}/>
-                <Route path="/feedback" element={<FeedbackForm/>}/>
+                <Route path="/contact-us" element={<FeedbackForm/>}/>
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/test" element={<CompareImages beforeImage={BeforePhoto} afterImage={AfterPhoto}/>}/>
           </Routes>
