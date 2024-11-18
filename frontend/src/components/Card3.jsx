@@ -13,8 +13,7 @@ const Card3 = () => {
                         <div className="card1-header-container">
                             <div className="card1-header">Sale of special equipment </div>
                         </div>
-                        <DownloadLink pdf_path="MACHINERY.pdf" text='List of production'/>
-                        <ul className="card1-list" style={{width: '400px'}}>
+                        <ul className="card1-list" style={{width: '400px', padding: '20px 20px 0px 20px'}}>
                             <li className="elementor-icon-list-item">
                                 Wide range of new and used special equipment
                             </li>
@@ -25,6 +24,8 @@ const Card3 = () => {
                                 Service maintenance
                             </li>
                         </ul>
+                        <DownloadLink pdf_path="MACHINERY.pdf" text='OFFER LIST'/>
+
                     </div>
                     <div className="card1-body-right">
                         <div className="slider" style={{ height: '350px', width: '450px'}}>

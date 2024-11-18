@@ -139,8 +139,8 @@ const Footer = () => {
                                 <div className="elementor-widget-container">
                                     <h3 className="elementor-heading-title elementor-size-default">
                                         Made by{" "}
-                                        <a href="https://busybeesmarketing.nl/" target="blank">
-                                            BusyBees Marketing
+                                        <a href="https://github.com/BlackfireZZZ" target="blank">
+                                            BlackfireZZZ
                                         </a>
                                     </h3>{" "}
                                 </div>

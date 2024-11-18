@@ -11,16 +11,9 @@ import ReviewCarousel from "./ReviewCarousel";
 function MainPage() {
     return (
         <>
-            <a
-                className="skip-link screen-reader-text"
-                href="#content"
-                role="link"
-                title="Skip to content"
-            >
-                Skip to content
-            </a>
             <div className="hfeed site" id="page">
                 <Header />
+                <h1>DEMO VERSION OF SITE</h1>
                 <div id="content" className="site-content">
                     <div className="ast-container">
                             <main id="main" className="site-main">

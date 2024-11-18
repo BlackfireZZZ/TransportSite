@@ -52,10 +52,8 @@ const Slogan = () => {
                             <div className="elementor-widget-container">
                                 <p className="MsoNormal">
                                 <span lang="EN-GB">
-                                  A dedicated trucking agency, operating with an
-                                  extensive well-established fleet and
-                                  cooperating only with the biggest names in the
-                                  trucking industry.
+                                  Your trusted expert in special equipment. With our in-depth knowledge of the market,
+                                    we offer a wide range of services related to machinery.
                                 </span>
                                 </p>{" "}
                             </div>
