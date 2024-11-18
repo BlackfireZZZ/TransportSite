@@ -9,6 +9,7 @@ import PhotoSlider from "./components/PhotoSlider";
 import CompareImages from "./components/CompareImages";
 import BeforePhoto from './assets/logistics1.jpg';
 import AfterPhoto from './assets/logistics2.jpg';
+import EmployeeCard from "./components/EmployeeCard";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
                 <Route path="/" element={<MainPage/>}/>
                 <Route path="/contact-us" element={<FeedbackForm/>}/>
                 <Route path="/services" element={<Services/>}/>
-                <Route path="/test" element={<CompareImages beforeImage={BeforePhoto} afterImage={AfterPhoto}/>}/>
+                <Route path="/our-team" element={<EmployeeCard/>}/>
           </Routes>
         </Router>
       </div>

@@ -127,6 +127,15 @@ const Header = () => {
                                                     Contact us
                                                 </a>
                                             </li>
+                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-55">
+                                                <a
+                                                    href={`${baseUrl}/our-team`}
+                                                    onClick={() => handleClick({baseUrl} + "/our-team")}
+                                                    className={`elementor-item menu-link `}
+                                                >
+                                                    Team
+                                                </a>
+                                            </li>
                                         </ul>
                                         {" "}
                                     </nav>

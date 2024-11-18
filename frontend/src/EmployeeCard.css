@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-title {
+    font-size: 2.5em;
+    color: #173a63;
+    margin: 20px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Центрирование заголовка */
+}
+
+.employee-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); /* Три фиксированные колонки */
+    grid-auto-rows: auto; /* Высота строк определяется автоматически */
+    gap: 20px 40px; /* Вертикальные 20px, горизонтальные 40px */
+    justify-content: center; /* Центрируем сетку на странице */
+    padding-bottom: 40px;
+}
+
+.employee-card {
+    background-color: #173a63;
+    color: #febf00;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.employee-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.employee-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #febf00;
+}
+
+.employee-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #febf00;
+}
+
+.employee-position {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.employee-description {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.employee-phone {
+    font-size: 0.9em;
+    color: #febf00;
+    margin-top: 10px;
+}
