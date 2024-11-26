@@ -139,16 +139,17 @@ const Footer = () => {
                             >
                                 <div className="elementor-widget-container">
                                     <h3 className="elementor-heading-title elementor-size-default">
-                                        Made by{" "}
+                                        &copy; {new Date().getFullYear()} Made by{" "}
                                         <a href="https://github.com/BlackfireZZZ" target="blank">
                                             BlackfireZZZ
                                         </a>
-                                    </h3>{" "}
+                                    </h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
         </div>
     );
