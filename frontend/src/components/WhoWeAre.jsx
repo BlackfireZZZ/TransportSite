@@ -39,54 +39,49 @@ const WhoWeAre = () => {
                         >
                             <div className="elementor-widget-container">
                                 <p>
-                                    <b>{CompanyName}</b> is more than just a supplier -
-                                    we are your dedicated partner in success. With an established reputation for
-                                    delivering exceptional service, we have earned the trust of clients worldwide.
-                                    Our expertise spans beyond logistics, integrating procurement, sales,
-                                    and comprehensive maintenance solutions.
-                                    This ensures your equipment remains reliable, efficient, and operational throughout
-                                    its entire lifecycle, minimizing downtime and maximizing value.
+                                    Since 2017, <b>Transport Site</b> has been a trusted partner for
+                                    businesses in the construction, mining, and industrial sectors. With over 7 years of
+                                    experience, we’ve built a reputation for delivering reliable and tailored solutions
+                                    to meet the diverse needs of our clients. Our goal is to not only supply equipment
+                                    but to provide comprehensive services that ensure your operations run seamlessly and
+                                    efficiently.
+                                </p>
+                                <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            Capital Repairs
+                                        </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            Diagnostics and Maintenance
+                                        </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            Spare Parts Supply
+                                        </span>
+                                </li>
+                                <li className="elementor-icon-list-item">
+                                        <span className="elementor-icon-list-text">
+                                            Long-Term Rentals
+                                        </span>
+                                </li>
+                                <p> </p>
+                                <p>
+                                    At Transport Site, we don’t just provide services — we focus on creating long-term
+                                    value for your business. Our integrated approach reduces downtime, optimizes costs,
+                                    and ensures your equipment remains dependable throughout its lifecycle.
                                 </p>
                                 <p>
-                                    By fostering lasting relationships with our clients, we prioritize their needs at
-                                    every stage. Whether it's sourcing the right equipment or ensuring seamless
-                                    operation, we are committed to supporting your growth on every step of the way.
-                                </p>
-                                <p>
-                                    Take a closer look at the full range of possibilities we offer, and let us begin
-                                    collaborating to achieve your goals. Our expertise and commitment to
-                                    excellence will ensure a productive and successful partnership from the very start.
+                                    Let us help you achieve your goals with the expertise, commitment, and quality you
+                                    can rely on. Explore our full range of solutions, and see how we can work together
+                                    to drive your success.
                                 </p>{" "}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div
-                    className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ece4b5"
-                    data-id="1ece4b5"
-                    data-element_type="column"
-                >
-                    <div className="elementor-widget-wrap elementor-element-populated">
-                        <div
-                            className="elementor-element elementor-element-a29ee44 elementor-widget elementor-widget-image"
-                            data-id="a29ee44"
-                            data-element_type="widget"
-                            data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateY_effect":"yes","motion_fx_translateY_direction":"negative","motion_fx_translateY_speed":{"unit":"px","size":14,"sizes":[]},"motion_fx_translateY_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":50}},"_animation":"none","_animation_delay":800,"motion_fx_devices":["desktop"]}'
-                            data-widget_type="image.default"
-                        >
-                            <div className="elementor-widget-container">
-                                <img
-                                    decoding="async"
-                                    width={1}
-                                    height={1}
-                                    src="https://www.ets-trucking.com/wp-content/uploads/2019/06/ETS-Logo.svg"
-                                    className="attachment-full size-full wp-image-302"
-                                    alt=""
-                                />{" "}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     );

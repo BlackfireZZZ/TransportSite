@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
                         >
                             <div className="elementor-widget-container">
                                 <h2 className="elementor-heading-title elementor-size-default">
-                                    Why choose ets?
+                                    Why choose Transport Site?
                                 </h2>{" "}
                             </div>
                         </div>
@@ -54,38 +54,33 @@ const WhyChooseUs = () => {
                                 <ul className="elementor-icon-list-items">
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Unmatched expertise</b> in automotive industry & logistics
+                                            Unmatched Expertise in Heavy Equipment and Specialized Machinery
                                         </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Fast and reliable</b> shipping
+                                            Fast and Reliable Delivery
                                         </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Custom solutions</b> tailored to your needs
+                                            Custom Solutions
                                         </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Transparent pricing</b> with no hidden fees.
+                                            Clear and Transparent Pricing with No Hidden Fees
                                         </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Experienced and knowledgeable</b> team
+                                            Experienced Team
                                   </span>
                                     </li>
                                     <li className="elementor-icon-list-item">
                                         <span className="elementor-icon-list-text">
-                                            <b>Dedicated</b> customer support (consulting, photos etc.)
+                                            Dedicated 24/7 Customer Support
                                           </span>
-                                    </li>
-                                    <li className="elementor-icon-list-item">
-                                        <span className="elementor-icon-list-text">
-                                            <b>24/7</b> available 24/7
-                                        </span>
                                     </li>
                                 </ul>
                             </div>

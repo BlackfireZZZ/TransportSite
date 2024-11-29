@@ -1,22 +1,48 @@
-.timeline-container {
-    width: 100vw;
-    height: 600px; /* Увеличенная высота */
+.timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
     background-color: #173A63;
-    padding: 20px 0;
+    padding: 60px 0 20px; /* Увеличенный верхний отступ */
+    width: 100vw;
+    height: 500px;
+}
+
+.timeline-title {
+    color: #fcbe07 !important;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px; /* Отступ от заголовка до линии */
+}
+
+.timeline-container {
+    width: 100%;
+    height: calc(100% - 80px); /* Учитываем высоту заголовка (60px) и нижний отступ (20px) */
     display: flex;
     justify-content: center;
-    align-items: center; /* Центрирование таймлайна по вертикали */
-    position: relative;
+    align-items: center;
+    position: relative; /* Создаем новый контекст для z-index */
+    z-index: 0; /* Базовый уровень контейнера */
 }
 
 .timeline-line {
     position: relative;
-    width: 90%;
+    width: 70%;
     height: 4px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
+    z-index: 1; /* Уровень линии */
+}
+
+.timeline-item {
+    position: absolute;
+    transform: translateX(-50%); /* Центрирует подпись и точку */
 }
 
 .timeline-dot {
@@ -24,16 +50,20 @@
     height: 16px;
     background-color: #fcbe07;
     border-radius: 50%;
+    position: relative;
+    z-index: 2; /* Уровень точки */
 }
 
 .timeline-label {
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     position: absolute;
-    max-width: 200px; /* Фиксированная ширина */
+    width: 150px;
     text-align: center;
     cursor: pointer;
-    white-space: pre-wrap; /* Разрешение переноса текста */
+    white-space: pre-wrap;
+    transform: translateX(-45%); /* Центрирует текст под точкой */
+    z-index: 3; /* Уровень текста */
 }
 
 .timeline-tooltip {
@@ -44,11 +74,11 @@
     color: #173A63;
     padding: 10px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s, visibility 0.3s;
-    width: 250px; /* Фиксированная ширина */
-    z-index: 10;
+    width: 300px;
+    z-index: 9999 !important; /* Высший уровень */
 }
 
 .timeline-label:hover .timeline-tooltip {
@@ -57,20 +87,34 @@
 }
 
 .timeline-label.above {
-    top: -50px; /* Расположение над таймлайном */
+    top: -70px; /* Смещает текст вверх */
 }
 
 .timeline-label.below {
-    top: 20px; /* Расположение под таймлайном */
+    top: 30px; /* Смещает текст вниз */
+}
+
+.timeline-start-dot {
+    position: absolute;
+    left: 0;
+    width: 24px; /* Увеличенный размер для стартовой точки */
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 1; /* Уровень стартовой точки */
 }
 
 .timeline-arrow {
     position: absolute;
-    right: 5%;
+    right: -2%; /* Центрирует стрелку в конце линии (100% - 70%) / 2 = 15% */
+    top: 50%; /* Смещает стрелку по вертикали относительно контейнера */
+    transform: translate(0, -50%); /* Центрирует стрелку по вертикали */
     width: 0;
     height: 0;
-    border-left: 10px solid white;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    transform: translateY(-50%);
+    border-left: 40px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    z-index: 1 !important; /* Уровень стрелки ниже всплывающих окон */
 }

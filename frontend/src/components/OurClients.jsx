@@ -1,5 +1,7 @@
 import React from "react";
 import '../index.css'
+import '../OurClients.css'
+
 
 
 const OurClients = () => {
@@ -23,9 +25,9 @@ const OurClients = () => {
                             data-widget_type="heading.default"
                         >
                             <div className="elementor-widget-container">
-                                <h3 className="elementor-heading-title elementor-size-default">
-                                    Some of our clients
-                                </h3>{" "}
+                                <h2 className="elementor-heading-title elementor-size-default" style={{color: '#3a3a3a'}}>
+                                    <b>Some of our clients</b>
+                                </h2>{" "}
                             </div>
                         </div>
                         <div
@@ -54,7 +56,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2019/05/Logo-DHL.svg"
+                                                    src={require("../assets/logo1.jpg")}
                                                     alt="Logo-DHL"
                                                 />
                                             </figure>
@@ -69,7 +71,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2019/05/Logo-DFDS.svg"
+                                                    src={require("../assets/logo2.jpg")}
                                                     alt="Logo-DFDS"
                                                 />
                                             </figure>
@@ -84,7 +86,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2019/05/Logo-DSV.svg"
+                                                    src={require("../assets/logo3.png")}
                                                     alt="Logo-DSV"
                                                 />
                                             </figure>
@@ -99,7 +101,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2019/06/Logo-Cargo-Care.png"
+                                                    src={require("../assets/logo4.png")}
                                                     alt="Logo-Cargo-Care"
                                                 />
                                             </figure>
@@ -114,7 +116,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2021/07/vlt-cargo.png"
+                                                    src={require("../assets/logo3.png")}
                                                     alt="vlt-cargo"
                                                 />
                                             </figure>
@@ -129,7 +131,7 @@ const OurClients = () => {
                                                 <img
                                                     decoding="async"
                                                     className="swiper-slide-image"
-                                                    src="https://www.ets-trucking.com/wp-content/uploads/2021/07/freja.png"
+                                                    src={require("../assets/logo4.png")}
                                                     alt="freja"
                                                 />
                                             </figure>
