@@ -6,30 +6,32 @@ import DownloadLink from "./DownloadLink";
 
 const Card3 = () => {
     return (
-        <div className="card1">
+        <div className="card1" style={{height: '500px'}}>
             <div className="card3-content">
                 <div className="card1-body">
                     <div className="card1-body-left">
                         <div className="card1-header-container">
-                            <div className="card1-header">Sale of special equipment </div>
+                            <div className="card1-header">Supply of Essential Spare Parts and Components </div>
                         </div>
-                        <ul className="card1-list" style={{width: '400px', padding: '20px 20px 0px 20px'}}>
+                        <ul className="card1-list" style={{width: '550px'}}>
                             <li className="elementor-icon-list-item">
-                                Wide range of new and used special equipment
+                                Genuine spare parts for all major brands, including Caterpillar, Komatsu, Volvo, and
+                                Liebherr.
                             </li>
                             <li className="elementor-icon-list-item">
-                                Selection of equipment appropriate to the specific tasks
+                                Hydraulic systems, engine components, transmissions, and undercarriage parts.
                             </li>
                             <li className="elementor-icon-list-item">
-                                Service maintenance
+                                Global sourcing&delivery of hard-to-find components.
+                            </li>
+                            <li className="elementor-icon-list-item">
+                                Custom solutions for retrofitting and upgrading equipment.
                             </li>
                         </ul>
-                        <DownloadLink pdf_path="MACHINERY.pdf" text='OFFER LIST'/>
-
                     </div>
                     <div className="card1-body-right">
-                        <div className="slider" style={{ height: '350px', width: '450px'}}>
-                            <img src={require('../assets/1.jpg')} style={{ width: 'auto', height: '350px'}}/>
+                        <div className="slider" style={{width: '400px', height: 'auto'}}>
+                            <img src={require('../assets/6.jpg')}/>
                         </div>
                     </div>
                 </div>

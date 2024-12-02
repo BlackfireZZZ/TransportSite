@@ -1,35 +1,39 @@
 // Card1.js
 import React from 'react';
+import '../Card3.css';
 import '../Card1.css';
-import gearIcon from '../icons/gear.png'; // Иконка шестеренки
 import PhotoSlider from "./PhotoSlider";
+import DownloadLink from "./DownloadLink";
 
 const Card1 = () => {
     return (
-        <div className="card1">
-            <div className="card1-content">
+        <div className="card3">
+            <div className="card3-content">
                 <div className="card1-body">
                     <div className="card1-body-left">
                         <div className="card1-header-container">
-                            <div className="card1-header">Vehicle import</div>
+                            <div className="card1-header">Capital Repair of Specialized Equipment </div>
                         </div>
-                        <ul className="card1-list">
+                        <ul className="card1-list" style={{width: '500px', padding: '20px 20px 0px 20px'}}>
                             <li className="elementor-icon-list-item">
-                                Selection of customized cars <img src={gearIcon} alt="Gear Icon" className="gear-icon"/>
+                                Comprehensive overhaul of engines, hydraulics, transmissions, and other key systems.
                             </li>
                             <li className="elementor-icon-list-item">
-                                Issuing all necessary documents for import
+                                Use of certified spare parts to ensure long-lasting performance.
                             </li>
                             <li className="elementor-icon-list-item">
-                                Transportation of the car to the client
+                                Tailored repair plans to meet exactly your needs.
+                            </li>
+                            <li className="elementor-icon-list-item">
+                                Expertise in repairing:
                             </li>
                         </ul>
+
                     </div>
                     <div className="card1-body-right">
-                        <PhotoSlider
-                            photos={['vehicle_import1.jpg', 'vehicle_import2.jpg', 'vehicle_import3.jpg']}
-                            height = '100%'
-                        />
+                        <div className="slider" style={{ height: '500px', width: '650px'}}>
+                            <img src={require('../assets/1.jpg')} style={{ width: 'auto', height: '500px'}}/>
+                        </div>
                     </div>
                 </div>
             </div>
