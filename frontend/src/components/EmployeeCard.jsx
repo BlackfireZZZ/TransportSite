@@ -17,7 +17,7 @@ const employees = [
         name: "John Carter",
         position: "Logistics Coordinator",
         description: "Создает и поддерживает функционал наших приложений.",
-        phone: "+7 (900) 234-56-78",
+        phone: "+90 (506) 988-46-85",
         photo: require("../assets/empty_profile.jpg"),
     },
     {
@@ -25,7 +25,7 @@ const employees = [
         name: "Emre Çelik",
         position: "Rental Contracts Specialist",
         description: "Отвечает за визуальную часть и пользовательский опыт.",
-        phone: "+7 (900) 345-67-89",
+        phone: "+90 (914) 463-37-90",
         photo: require("../assets/empty_profile.jpg"),
     },
     {
@@ -39,17 +39,17 @@ const employees = [
     {
         id: 5,
         name: "Lukas Novak",
-        position: "Аналитик",
+        position: "Chief Accountant",
         description: "Проводит исследования и предоставляет данные для принятия решений.",
-        phone: "+7 (900) 567-89-01",
+        phone: "+90 (368) 280-54-49",
         photo: require("../assets/empty_profile.jpg"),
     },
     {
         id: 6,
-        name: "Анна Кузнецова",
-        position: "Chief Accountant",
+        name: "Daniel Hristov",
+        position: "Accountant ",
         description: "Занимается подбором и развитием персонала.",
-        phone: "+7 (900) 678-90-12",
+        phone: "+90 (669) 110-87-87",
         photo: require("../assets/empty_profile.jpg"),
     },
 ];
@@ -63,9 +63,8 @@ const EmployeeCard = () => {
                 {employees.map((employee) => (
                     <div key={employee.id} className="employee-card">
                         <img src={employee.photo} alt={employee.name} className="employee-photo" />
-                        <h2 className="employee-name">{employee.name}</h2>
+                        <h2 className="employee-name" style={{width: '250px'}}>{employee.name}</h2>
                         <h3 className="employee-position">{employee.position}</h3>
-                        <p className="employee-description">{employee.description}</p>
                         <p className="employee-phone">Phone: {employee.phone}</p>
                     </div>
                 ))}

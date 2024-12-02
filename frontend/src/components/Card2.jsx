@@ -14,14 +14,14 @@ const Card2 = () => {
                         <div className="card1-body">
                             <div className="card2-body-right"> {/* Перенесено справа */}
                                 <div className="slider" style={{width: '400px', height: 'auto'}}>
-                                    <img src={require('../assets/2.jpg')}/>
+                                    <img src={require('../assets/maintenance_services.jpg')}/>
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}
                                 <div className="card4-header-container" style={{width: '70%'}}>
                                     <div className="card4-header" >Diagnostics and Maintenance Services</div>
                                 </div>
-                                <ul className="card2-list">
+                                <ul className="card2-list" style={{width: '450px'}}>
                                     <li className="elementor-icon-list-item">
                                         Advanced diagnostics for identifying and resolving technical issues quickly.
                                     </li>

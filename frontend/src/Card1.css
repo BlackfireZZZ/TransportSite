@@ -36,7 +36,7 @@
 /* Основной контейнер */
 .card1-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -55,8 +55,6 @@
 
 /* Правая колонка */
 .card1-body-right {
-    flex: 0.5;
-    display: flex;
     align-items: center;
     align-self: stretch;
 }
@@ -86,6 +84,59 @@
 
 /* PhotoSlider */
 .card1-body-right > * {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Контейнер для списка техники и изображения */
+.equipment-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 70px;
+    width: 430px; /* Фиксированная ширина контейнера */
+    position: relative; /* Чтобы управлять выходом дочерних элементов */
+    overflow: visible; /* Позволяет дочерним элементам выходить за границы */
+}
+
+/* Список техники */
+.equipment-list {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 20px 0 0;
+    width: 300px; /* Устанавливаем фиксированную ширину списка */
+}
+
+.equipment-item {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.equipment-item:hover {
+    color: #173a63;
+    font-weight: bold;
+}
+
+/* Контейнер для изображения техники */
+.equipment-image {
+    flex-shrink: 0;
+    width: 400px; /* Ширина изображения */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 20px;
+    position: absolute; /* Абсолютное позиционирование */
+    right: -260px; /* Сдвиг изображения за правую границу */
+    top: -60px; /* Сдвиг изображения наверх */
+    z-index: 1000;
+}
+
+.equipment-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;

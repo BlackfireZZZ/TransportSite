@@ -29,9 +29,9 @@ const Card3 = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="card1-body-right">
+                    <div className="card1-body-right" style={{flex: ' 0.5', display: 'flex'}}>
                         <div className="slider" style={{width: '400px', height: 'auto'}}>
-                            <img src={require('../assets/6.jpg')}/>
+                            <img src={require('../assets/supply.jpg')}/>
                         </div>
                     </div>
                 </div>

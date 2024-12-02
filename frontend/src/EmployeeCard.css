@@ -33,6 +33,9 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     max-width: 300px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .employee-card:hover {
