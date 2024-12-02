@@ -1,5 +1,5 @@
 const Config = {
-    baseUrl: 'localhost:8000',
+    baseUrl: '94.241.172.219',
 }
 
 
