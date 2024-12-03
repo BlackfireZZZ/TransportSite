@@ -3,7 +3,9 @@ import '../FullWidthContainer.css';
 import '../Card1.css';
 import '../Card2.css';
 import '../Card4.css'
-import PhotoSlider from "./PhotoSlider";
+import CompareImages from './CompareImages';
+import BeforePhoto from '../assets/stalo.jpg';
+import AfterPhoto from '../assets/bilo.jpg';
 
 const Card2 = () => {
     return (
@@ -13,8 +15,13 @@ const Card2 = () => {
                     <div className="card2-content">
                         <div className="card1-body">
                             <div className="card2-body-right"> {/* Перенесено справа */}
-                                <div className="slider" style={{width: '400px', height: 'auto'}}>
-                                    <img src={require('../assets/maintenance_services.jpg')}/>
+                                <div className="slider" style={{width: '540px', height: 'auto'}}>
+                                    <CompareImages
+                                        beforeImage={BeforePhoto}
+                                        afterImage={AfterPhoto}
+                                        width="100%"
+                                        height="270px"
+                                    />
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}

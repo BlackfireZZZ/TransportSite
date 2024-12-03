@@ -8,11 +8,11 @@ const Card1 = () => {
     const [selectedImage, setSelectedImage] = useState(require('../assets/transport1.jpg'));
 
     const equipmentList = [
-        { name: "Excavators CAT 220/230", image: require('../assets/transport1.jpg') },
-        { name: "Tractors New Holland T7/T8", image: require('../assets/transport2.jpg') },
-        { name: "Trucks CAT 773/777", image: require('../assets/transport3.jpg') },
-        { name: "Dozers Komatsu D155/275", image: require('../assets/transport4.jpg') },
-        { name: "Agricultural equipment John Deere 1210/1470", image: require('../assets/transport5.jpg') },
+        { name: "Excavators CAT 220/230", image: require('../assets/transport3.jpg') },
+        { name: "Tractors New Holland T7/T8", image: require('../assets/transport1.jpg') },
+        { name: "Trucks CAT 773/777", image: require('../assets/transport5.jpg') },
+        { name: "Dozers Komatsu D155/275", image: require('../assets/transport2.jpg') },
+        { name: "Agricultural equipment John Deere 1210/1470", image: require('../assets/transport4.jpg') },
     ];
 
     return (
@@ -50,11 +50,15 @@ const Card1 = () => {
                                 ))}
                             </ul>
                             <div className="equipment-image">
-                                <img src={selectedImage} alt="Equipment"/>
+                                <img
+                                    src={selectedImage}
+                                    alt="Equipment"
+
+                                />
                             </div>
                         </div>
                     </div>
-                    <div className="card1-body-right" style={{paddingTop: '100px'}}>
+                    <div className="card1-body-right" style={{paddingTop: '70px'}}>
                         <div className="slider" style={{height: '400px', width: '550px'}}>
                             <img src={require('../assets/capital_repair.jpg')} style={{width: 'auto', height: 'auto'}}/>
                         </div>

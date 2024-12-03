@@ -4,6 +4,7 @@ import '../Card1.css';
 import '../Card2.css';
 import '../Card4.css'
 import PhotoSlider from "./PhotoSlider";
+import DownloadLink from "./DownloadLink";
 
 const Card4 = () => {
     return (
@@ -14,23 +15,30 @@ const Card4 = () => {
                         <div className="card1-body">
                             <div className="card2-body-right"> {/* Перенесено справа */}
                                 <div className="slider" style={{width: '500px', height: '350px'}}>
-                                    <img src={require('../assets/3.jpg')} style={{ width: 'auto', height: '350px'}}/>
+                                    <img src={require('../assets/rental.jpg')} style={{ width: 'auto', height: '350px'}}/>
                                 </div>
                             </div>
                             <div className="card2-body-left"> {/* Теперь находится слева */}
                                 <div className="card4-header-container" style={{width: '60%'}}>
-                                    <div className="card4-header">Logistics</div>
+                                    <div className="card4-header">Long-Term Equipment Rental Services</div>
                                 </div>
-                                <ul className="card2-list">
+                                <ul className="card2-list" style={{width: '500px'}}>
                                     <li className="elementor-icon-list-item">
-                                        International transportation
+                                        Wide range of specialized equipment available for long-term leasing
                                     </li>
                                     <li className="elementor-icon-list-item">
-                                        Customs clearance
+                                        Flexible rental terms (min. 3 months, up to 5 years)
                                     </li>
                                     <li className="elementor-icon-list-item">
-                                        Cargo storage
+                                        Well-maintained machinery
                                     </li>
+                                    <li className="elementor-icon-list-item">
+                                        Technical support and on-site maintenance included in rental agreements.
+                                    </li>
+                                    <li className="elementor-icon-list-item">
+                                        Discounts for regular customers/at volume
+                                    </li>
+                                    <DownloadLink pdf_path={'MACHINERY.pdf'} text={'production'}/>
                                 </ul>
                             </div>
                         </div>

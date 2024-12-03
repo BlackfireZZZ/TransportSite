@@ -2,11 +2,8 @@ import React from 'react';
 import '../FullWidthContainer.css';
 import '../Card1.css';
 import '../Card2.css';
-import '../Card4.css';
-import PhotoSlider from './PhotoSlider';
-import CompareImages from './CompareImages';
-import BeforePhoto from '../assets/stalo.jpg';
-import AfterPhoto from '../assets/bilo.jpg';
+import '../Card4.css'
+import PhotoSlider from "./PhotoSlider";
 
 const Card6 = () => {
     return (
@@ -14,27 +11,25 @@ const Card6 = () => {
             <div className="fullWidthContainer__innerContent">
                 <div className="card2">
                     <div className="card2-content">
-                        {/* Основной контент */}
                         <div className="card1-body">
-                            <CompareImages
-                                    beforeImage={BeforePhoto}
-                                    afterImage={AfterPhoto}
-                                    width="60%"
-                                    height="300px"
-                            />
-                            <div className="card2-body-left" style={{flex: '1'}}>
-                                <div className="card4-header-container" style={{ width: '55%'}}>
-                                    <div className="card4-header">Service</div>
+                            <div className="card2-body-right"> {/* Перенесено справа */}
+                                <div className="slider" style={{width: '500px', height: '350px'}}>
+                                    <img src={require('../assets/3.jpg')} style={{ width: 'auto', height: '350px'}}/>
+                                </div>
+                            </div>
+                            <div className="card2-body-left"> {/* Теперь находится слева */}
+                                <div className="card4-header-container" style={{width: '60%'}}>
+                                    <div className="card4-header">Logistics</div>
                                 </div>
                                 <ul className="card2-list">
                                     <li className="elementor-icon-list-item">
-                                        Maintenance and repair
+                                        International transportation
                                     </li>
                                     <li className="elementor-icon-list-item">
-                                        Spare parts supply
+                                        Customs clearance
                                     </li>
                                     <li className="elementor-icon-list-item">
-                                        Malfunction diagnostics
+                                        Cargo storage
                                     </li>
                                 </ul>
                             </div>

@@ -123,16 +123,16 @@
 /* Контейнер для изображения техники */
 .equipment-image {
     flex-shrink: 0;
-    width: 400px; /* Ширина изображения */
-    height: 300px;
+    width: 360px; /* Ширина изображения */
+    height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     margin-left: 20px;
     position: absolute; /* Абсолютное позиционирование */
-    right: -260px; /* Сдвиг изображения за правую границу */
-    top: -60px; /* Сдвиг изображения наверх */
+    right: -230px; /* Сдвиг изображения за правую границу */
+    top: -30px; /* Сдвиг изображения наверх */
     z-index: 1000;
 }
 
